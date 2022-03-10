@@ -44,11 +44,12 @@ ul {
 
 .container {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-    padding: 10px;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    margin: 40px;
+}
 
+.info {
+    max-width: 200px;
 }
 
 .text {
