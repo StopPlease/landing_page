@@ -25,7 +25,6 @@ ul {
 
 .container_hero {
     display: flex;
-   
 }
 
 .hero_main {
@@ -43,6 +42,19 @@ ul {
     color: #3882F6;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+
+.text {
+    text-align: left;
+}
+
 .call_to_action {
     background-color: #3882F6;
 }
@@ -51,6 +63,7 @@ h2 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    text-align: center;
 }
 
 .container_quote {
@@ -65,4 +78,6 @@ h2 {
 
 footer {
     color: white;
+    padding: 40px;
+    text-align: center;
 }
