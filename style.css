@@ -25,10 +25,29 @@ ul {
 
 .container_hero {
     display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px
+}
+
+.right {
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.left {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .hero_main {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: extra-bold;
     color: #f9FAF8;
 }
@@ -38,7 +57,7 @@ ul {
     color: #E5E7EB;
 }
 
-.button1 {
+button {
     color: #3882F6;
 }
 
@@ -58,6 +77,11 @@ ul {
 
 .call_to_action {
     background-color: #3882F6;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h2 {
